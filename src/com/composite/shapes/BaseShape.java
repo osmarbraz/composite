@@ -1,6 +1,5 @@
 package com.composite.shapes;
 
-import com.composite.shapes.Shape;
 import java.awt.*;
 
 /**
@@ -90,7 +89,6 @@ abstract class BaseShape implements Shape {
         } else {
             disableSelectionStyle(graphics);
         }
-
         // ...
     }
 }
